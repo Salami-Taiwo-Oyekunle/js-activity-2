@@ -1,0 +1,35 @@
+<html>
+    <head><meta charset="UTF-8"></head>
+    <body>
+        <h1>JS Variables</h1>
+        <h3 id="result"></h3>
+        <div style="background-color: blue; padding: 10px; text-align: center;">
+        <button onclick="add()">Addition</button>
+        <button onclick="sub()">Subtraction</button>
+        <br>
+        <button onclick="mult(5,4)">Multiplication</button>
+        <button onclick="mult(5,4)">Multiplication</button>
+        </div>
+        <script>
+            function add(){
+                var a=5;
+                var b=4;
+                var c=a+b;
+                document.getElementById("result").innerHTML="Addition is"+c;
+            }
+            function sub(){
+                var a=5;
+                var b=4;
+                var c=a-b;
+                document.getElementById("result").innerHTML="subtraction is"+c;
+            }
+            function mult(a,b){
+                var a=5;
+                var b=4;
+                var c=a*b;
+                document.getElementById("result").innerHTML="multiplication is"+c;
+            }
+            
+        </script>
+    </body>
+</html>
